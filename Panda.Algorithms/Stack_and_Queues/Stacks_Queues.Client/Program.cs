@@ -7,7 +7,8 @@ namespace Stacks_Queues.Client
     {
         static void Main(string[] args)
         {
-            IStackOfStrings stackOfStrings = new LinkedListImplStackOfString();
+
+            IStackOfStrings stackOfStrings = new ArrayImplStackOfStrings(20);
             string inputStr;
             while (!string.IsNullOrWhiteSpace(inputStr = Console.ReadLine()))
             {
