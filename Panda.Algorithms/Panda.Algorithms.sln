@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stacks_Queues", "Stacks_Queues\Stacks_Queues.csproj", "{CF9C09DB-59D2-4B2C-BF6E-28F7522E8DFB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stacks_Queues", "Stack_and_Queues\Stacks_Queues\Stacks_Queues.csproj", "{CF9C09DB-59D2-4B2C-BF6E-28F7522E8DFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stacks_Queues.Client", "Stacks_Queues.Client\Stacks_Queues.Client.csproj", "{1C1503B1-7000-4F1E-9022-A8B4BA41EDBB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stacks_Queues.Client", "Stack_and_Queues\Stacks_Queues.Client\Stacks_Queues.Client.csproj", "{1C1503B1-7000-4F1E-9022-A8B4BA41EDBB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stack_and_Queues", "Stack_and_Queues", "{5A9DE324-BA1F-40D9-B841-EE8C464DB2C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,5 +24,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF9C09DB-59D2-4B2C-BF6E-28F7522E8DFB} = {5A9DE324-BA1F-40D9-B841-EE8C464DB2C0}
+		{1C1503B1-7000-4F1E-9022-A8B4BA41EDBB} = {5A9DE324-BA1F-40D9-B841-EE8C464DB2C0}
 	EndGlobalSection
 EndGlobal

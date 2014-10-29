@@ -1,6 +1,6 @@
 ﻿namespace Stacks_Queues.Stacks
 {
-    public class LinkedListImpl : IStackOfStrings
+    public class LinkedListImplStackOfString : IStackOfStrings
     {
         private Node first;
 
@@ -10,7 +10,7 @@
             public Node Next { get; set; }
         }
 
-        public LinkedListImpl()
+        public LinkedListImplStackOfString()
         {
         }
 
