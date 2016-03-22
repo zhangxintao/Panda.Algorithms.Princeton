@@ -45,12 +45,17 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnionFind\QuickFindTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="UnionFind\" />
+    <ProjectReference Include="..\UnionFiind\UnionFiind.csproj">
+      <Project>{189c1b78-acee-4bce-9280-950bedf46614}</Project>
+      <Name>UnionFiind</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
