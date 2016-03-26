@@ -11,8 +11,9 @@ namespace MainProgram
     {
         static void Main(string[] args)
         {
-            QuickFindTest.TestQuickFind();
+            //QuickFindTest.TestQuickFind();
 
+            QuickUnionTest.Test();
             Console.ReadKey();
         }
     }
