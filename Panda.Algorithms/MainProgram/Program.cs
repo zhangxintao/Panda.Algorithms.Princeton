@@ -13,7 +13,10 @@ namespace MainProgram
         {
             //QuickFindTest.TestQuickFind();
 
-            QuickUnionTest.Test();
+            //QuickUnionTest.Test();
+
+
+            WeightedQuickUnionTest.Test();
             Console.ReadKey();
         }
     }
