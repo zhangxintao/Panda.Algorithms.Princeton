@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MainProgram.StackQueueBag;
 
 namespace MainProgram
 {
@@ -15,8 +16,9 @@ namespace MainProgram
 
             //QuickUnionTest.Test();
 
+            //WeightedQuickUnionTest.Test();
 
-            WeightedQuickUnionTest.Test();
+            StackTest.TestLinkedStack();
             Console.ReadKey();
         }
     }

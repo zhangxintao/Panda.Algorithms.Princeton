@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnionFiind", "UnionFiind\Un
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainProgram", "MainProgram\MainProgram.csproj", "{34F7A94A-7A47-458C-8142-6F72837569AC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackQueueBag", "StackQueueBag\StackQueueBag.csproj", "{2BF3ABE4-75A3-4638-9BEA-CC2E7C44461C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{34F7A94A-7A47-458C-8142-6F72837569AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34F7A94A-7A47-458C-8142-6F72837569AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34F7A94A-7A47-458C-8142-6F72837569AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BF3ABE4-75A3-4638-9BEA-CC2E7C44461C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BF3ABE4-75A3-4638-9BEA-CC2E7C44461C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BF3ABE4-75A3-4638-9BEA-CC2E7C44461C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BF3ABE4-75A3-4638-9BEA-CC2E7C44461C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,5 +38,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{189C1B78-ACEE-4BCE-9280-950BEDF46614} = {EE36326F-9274-4FB7-994D-B6A7690FC39C}
 		{34F7A94A-7A47-458C-8142-6F72837569AC} = {C260B303-2F70-44B1-A65F-6719A14504C5}
+		{2BF3ABE4-75A3-4638-9BEA-CC2E7C44461C} = {EE36326F-9274-4FB7-994D-B6A7690FC39C}
 	EndGlobalSection
 EndGlobal
