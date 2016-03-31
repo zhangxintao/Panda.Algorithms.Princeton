@@ -18,7 +18,10 @@ namespace MainProgram
 
             //WeightedQuickUnionTest.Test();
 
-            StackTest.TestLinkedStack();
+            //StackTest.TestLinkedStack();
+
+            StackTest.TestArrayStack();
+
             Console.ReadKey();
         }
     }
