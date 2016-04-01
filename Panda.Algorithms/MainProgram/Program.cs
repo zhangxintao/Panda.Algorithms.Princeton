@@ -20,7 +20,8 @@ namespace MainProgram
 
             //StackTest.TestLinkedStack();
 
-            StackTest.TestArrayStack();
+            //StackTest.TestArrayStack();
+            QueueTest.ArrayQueueTest();
 
             Console.ReadKey();
         }
