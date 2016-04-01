@@ -4,17 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{34F7A94A-7A47-458C-8142-6F72837569AC}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{568F9206-45D4-4107-8444-A6BF7C0EE865}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MainProgram</RootNamespace>
-    <AssemblyName>MainProgram</AssemblyName>
+    <RootNamespace>Sorting</RootNamespace>
+    <AssemblyName>Sorting</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,33 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StackQueueBag\QueueTest.cs" />
-    <Compile Include="StackQueueBag\StackTest.cs" />
-    <Compile Include="UnionFind\QuickFindTest.cs" />
-    <Compile Include="UnionFind\QuickUnionTest.cs" />
-    <Compile Include="UnionFind\WeightedQuickUnionTest.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Sorting\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Sorting\Sorting.csproj">
-      <Project>{568f9206-45d4-4107-8444-a6bf7c0ee865}</Project>
-      <Name>Sorting</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\StackQueueBag\StackQueueBag.csproj">
-      <Project>{2bf3abe4-75a3-4638-9bea-cc2e7c44461c}</Project>
-      <Name>StackQueueBag</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\UnionFiind\UnionFiind.csproj">
-      <Project>{189c1b78-acee-4bce-9280-950bedf46614}</Project>
-      <Name>UnionFiind</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
