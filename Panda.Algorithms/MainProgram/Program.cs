@@ -5,6 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MainProgram.StackQueueBag;
+using MainProgram.Sorting;
+using MainProgram.Sorting.MergeSort;
 
 namespace MainProgram
 {
@@ -21,7 +23,10 @@ namespace MainProgram
             //StackTest.TestLinkedStack();
 
             //StackTest.TestArrayStack();
-            QueueTest.ArrayQueueTest();
+
+            //QueueTest.ArrayQueueTest();
+
+            MergeSortTesting.TestMergeSort();
 
             Console.ReadKey();
         }
