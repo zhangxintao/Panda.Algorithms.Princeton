@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using MainProgram.StackQueueBag;
 using MainProgram.Sorting;
 using MainProgram.Sorting.MergeSort;
+using MainProgram.Sorting.QuickSort;
 
 namespace MainProgram
 {
@@ -26,8 +27,9 @@ namespace MainProgram
 
             //QueueTest.ArrayQueueTest();
 
-            MergeSortTesting.TestMergeSort();
+            //MergeSortTesting.TestMergeSort();
 
+            QuickSortTesting.Test();
             Console.ReadKey();
         }
     }

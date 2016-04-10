@@ -46,6 +46,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sorting\MergeSort\MergeSortTesting.cs" />
+    <Compile Include="Sorting\QuickSort\QuickSortTesting.cs" />
     <Compile Include="StackQueueBag\QueueTest.cs" />
     <Compile Include="StackQueueBag\StackTest.cs" />
     <Compile Include="UnionFind\QuickFindTest.cs" />
