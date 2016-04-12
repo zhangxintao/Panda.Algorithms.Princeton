@@ -8,7 +8,7 @@ using MainProgram.StackQueueBag;
 using MainProgram.Sorting;
 using MainProgram.Sorting.MergeSort;
 using MainProgram.Sorting.QuickSort;
-
+using MainProgram.Sorting.HeapSort;
 namespace MainProgram
 {
     class Program
@@ -29,7 +29,10 @@ namespace MainProgram
 
             //MergeSortTesting.TestMergeSort();
 
-            QuickSortTesting.Test();
+            //QuickSortTesting.Test();
+
+            MaxPriorityQueueTest.TestMaxPriorityQueueWithBinaryHeap();
+
             Console.ReadKey();
         }
     }
