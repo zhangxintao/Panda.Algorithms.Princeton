@@ -37,7 +37,9 @@ namespace MainProgram
 
             //HeapSortTesting.Test();
 
-            ElementarySortTesting.TestSelectionSort();
+            //ElementarySortTesting.TestSelectionSort();
+
+            ElementarySortTesting.TestInsertionSort();
 
             Console.ReadKey();
         }
