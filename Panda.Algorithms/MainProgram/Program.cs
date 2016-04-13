@@ -9,6 +9,8 @@ using MainProgram.Sorting;
 using MainProgram.Sorting.MergeSort;
 using MainProgram.Sorting.QuickSort;
 using MainProgram.Sorting.HeapSort;
+using MainProgram.Sorting.Elementary;
+
 namespace MainProgram
 {
     class Program
@@ -33,7 +35,9 @@ namespace MainProgram
 
             //MaxPriorityQueueTest.TestMaxPriorityQueueWithBinaryHeap();
 
-            HeapSortTesting.Test();
+            //HeapSortTesting.Test();
+
+            ElementarySortTesting.TestSelectionSort();
 
             Console.ReadKey();
         }
