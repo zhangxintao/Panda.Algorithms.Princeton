@@ -31,7 +31,9 @@ namespace MainProgram
 
             //QuickSortTesting.Test();
 
-            MaxPriorityQueueTest.TestMaxPriorityQueueWithBinaryHeap();
+            //MaxPriorityQueueTest.TestMaxPriorityQueueWithBinaryHeap();
+
+            HeapSortTesting.Test();
 
             Console.ReadKey();
         }
