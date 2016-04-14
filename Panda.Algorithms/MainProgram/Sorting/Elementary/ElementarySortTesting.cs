@@ -39,5 +39,20 @@ namespace MainProgram.Sorting.Elementary
                 Console.Write(item + " ");
             }
         }
+
+        public static void TestShellSort()
+        {
+            Console.WriteLine(" ======================= TestShellSort");
+            Console.WriteLine("Orginal input: {S, O, R, T, E, X, A, M, P, L, E}");
+            ISort<string> selectionSort = new ShellSort<string>();
+            var toSort = new string[] { "S", "O", "R", "T", "E", "X", "A", "M", "P", "L", "E" };
+            selectionSort.Sort(toSort);
+
+            Console.WriteLine("After sort:");
+            foreach (var item in toSort)
+            {
+                Console.Write(item + " ");
+            }
+        }
     }
 }

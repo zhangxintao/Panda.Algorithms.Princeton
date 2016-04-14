@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="Elementary\InsertionSort.cs" />
     <Compile Include="Elementary\SelectionSort.cs" />
+    <Compile Include="Elementary\ShellSort.cs" />
     <Compile Include="HeapSort\HeapSort.cs" />
     <Compile Include="HeapSort\IMaxPriorityQueue.cs" />
     <Compile Include="HeapSort\MaxPriorityQueueWithBinaryHeap.cs" />
